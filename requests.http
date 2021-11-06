@@ -1,0 +1,12 @@
+### POST END POINT
+GET https://api.hatchways.io/assessment/blog/posts?tag=tech
+
+
+###PING TEST
+GET http://localhost:3000/ping
+
+###POSTS INDEX
+GET http://localhost:3000/tech
+
+
+
