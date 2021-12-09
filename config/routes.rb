@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   get "/ping" => "posts#ping"
 
-  get "/tech" => "posts#index"
+  get "/posts" => "posts#index"
+  get "/posts" => "posts#sort"
 
 end

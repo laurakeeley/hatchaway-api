@@ -6,7 +6,10 @@ GET https://api.hatchways.io/assessment/blog/posts?tag=tech
 GET http://localhost:3000/ping
 
 ###POSTS INDEX
-GET http://localhost:3000/tech
+GET http://localhost:3000/posts?tag=politics&sortBy=reads
+
+###POSTS SORT
+GET http://localhost:3000/posts
 
 
 
